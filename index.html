@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Valor">
+            <select id="fromCurrency">
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="AUD">Dólar Australiano (AUD)</option>
+                <option value="CAD">Dólar Canadense (CAD)</option>
+                <option value="CHF">Franco Suíço (CHF)</option>
+                <option value="CNY">Yuan Chinês (CNY)</option>
+                <option value="SEK">Coroa Sueca (SEK)</option>
+                <option value="NZD">Dólar Neozelandês (NZD)</option>
+                <option value="BRL">Real Brasileiro (BRL)</option>
+            </select>
+            <select id="toCurrency">
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+                <option value="GBP">Libra Esterlina (GBP)</option>
+                <option value="AUD">Dólar Australiano (AUD)</option>
+                <option value="CAD">Dólar Canadense (CAD)</option>
+                <option value="CHF">Franco Suíço (CHF)</option>
+                <option value="CNY">Yuan Chinês (CNY)</option>
+                <option value="SEK">Coroa Sueca (SEK)</option>
+                <option value="NZD">Dólar Neozelandês (NZD)</option>
+                <option value="BRL">Real Brasileiro (BRL)</option>
+            </select>
+            <button onclick="convert()">Converter</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
